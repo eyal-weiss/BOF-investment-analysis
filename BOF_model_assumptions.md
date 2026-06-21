@@ -37,7 +37,7 @@ Last updated: 2026-06 (research date). Currency in USD; financials in $ millions
 - **Customers (verified):** Costco (multi-region), Sam's Club (nationwide May'26), Target (~2,000 stores Sep'26),
   Walmart (slipped to 2027), MicroDried ingredient channel ($5–6M), a large tolling partner, a chocolate CPG.
 - **Maturity mix (analyst assumption):** brand 40% / private label 40% / ingredient 20%.
-- **Margins (analyst assumption):** 40% GM realistic at scale, 50% optimistic (cheese/dairy line richer).
+- **Margins (analyst assumption):** 35% GM realistic at scale (in line with best scaled branded-snack peers; Peru cost base supports it).
 
 ## 3. The two temporary margin drags (model them out)
 

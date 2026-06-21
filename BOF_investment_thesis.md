@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-BranchOut Food is a micro-cap better-for-you (BFY) snack company that dries fruit and vegetables into chips, ingredients, and private-label product using EnWave's "GentleDry" REV dehydration technology, manufactured at a company-owned facility in Peru. The economic premise is a structural cost advantage — Peruvian labor at ~$1.50/hour, exclusive access to cosmetically-imperfect-but-internally-perfect produce, and a process that, once scaled, we believe can sustain a ~40% gross margin. Revenue has compounded explosively off a tiny base — $2.8M (FY2023) → $6.5M (FY2024) → $13.7M (FY2025, +113%) — and management guides FY2026 to "revenue with a 2 in front of it" (≥$20M). The company has won verifiable shelf space at the two largest U.S. warehouse clubs (Costco multi-region, Sam's Club nationwide) plus Target and an ingredient channel.
+BranchOut Food is a micro-cap better-for-you (BFY) snack company that dries fruit and vegetables into chips, ingredients, and private-label product using EnWave's "GentleDry" REV dehydration technology, manufactured at a company-owned facility in Peru. The economic premise is a structural cost advantage — Peruvian labor at ~$1.50/hour, exclusive access to cosmetically-imperfect-but-internally-perfect produce, and a process that, once scaled, we believe can sustain a ~35% gross margin. Revenue has compounded explosively off a tiny base — $2.8M (FY2023) → $6.5M (FY2024) → $13.7M (FY2025, +113%) — and management guides FY2026 to "revenue with a 2 in front of it" (≥$20M). The company has won verifiable shelf space at the two largest U.S. warehouse clubs (Costco multi-region, Sam's Club nationwide) plus Target and an ingredient channel.
 
 But this is not a company you can value with a five-year DCF, and pretending otherwise would be false precision. BOF's future is not a smooth distribution of outcomes around a central forecast — it is a **handful of discrete development paths whose probabilities and consequences differ by an order of magnitude**. New customers, new lines, new tolling deals, and successive rounds of dilution will reshape the income statement faster than any point forecast can track. The honest way to value it is a **probabilistic scenario model**: define the paths, attach a probability to each, model the per-share consequence within each as a distribution, and roll the whole thing up via Monte Carlo into both an expected value and a full distribution of outcomes.
 
@@ -76,7 +76,7 @@ This is the single most important fact in the thesis. Both management commentary
 
 ### 3. Margin Is a Function of Scale, and Two Current Drags Are Temporary
 
-Reported FY2025 gross margin (~16%) materially understates the structural economics. Two costs that depress it are deliberately temporary: **air freight (~8% of COGS)**, which management is incurring to prove reliability during ramp and will shed as ocean freight takes over (a stated ~3–4 point GM uplift), and **import tariffs (~5% of COGS in 2025)**, now partially relieved (see Concept 4). Stripping both, the *normalized* 2025 gross margin was ~25%, and BOF actually printed a 27% gross margin in a record June 2025 month as throughput improved. From there, we consider **~40% realistic and ~50% optimistic at scale** (dairy/cheese lines being richer and faster). The key insight: margin expansion is *driven by* throughput and fixed-cost absorption — so margin and scaling are the same bet, not independent levers.
+Reported FY2025 gross margin (~16%) materially understates the structural economics. Two costs that depress it are deliberately temporary: **air freight (~8% of COGS)**, which management is incurring to prove reliability during ramp and will shed as ocean freight takes over (a stated ~3–4 point GM uplift), and **import tariffs (~5% of COGS in 2025)**, now partially relieved (see Concept 4). Stripping both, the *normalized* 2025 gross margin was ~25%, and BOF actually printed a 27% gross margin in a record June 2025 month as throughput improved. From there, we consider **~35% realistic at scale** — in line with the best scaled branded-snack peers (Simply Good Foods, BellRing, Utz at ~34–38%), underpinned by the Peru cost advantage. The key insight: margin expansion is *driven by* throughput and fixed-cost absorption — so margin and scaling are the same bet, not independent levers.
 
 ### 4. The Tariff Picture Is Improving but Not Fully Resolved
 
@@ -111,7 +111,7 @@ A distribution partnership with MicroDried (signed March 2025) targets $5–6M i
 An unnamed large household brand is reportedly finalizing a tolling arrangement (Q3 2026), potentially $6–7M annually and keeping the fourth REV line near continuous utilization. Tolling is high-asset-utilization, lower-risk revenue that improves fixed-cost absorption and therefore margin.
 
 ### 5. Product Extension: Dairy, Protein, GLP-1
-The fourth, allergen-controlled line is dedicated to dairy/protein products (cheeses, cheesecakes, and a GLP-1-oriented line). In our understanding, cheese is faster and more profitable to dry — supporting the path from a ~25% normalized margin toward the 40–50% target.
+The fourth, allergen-controlled line is dedicated to dairy/protein products (cheeses, cheesecakes, and a GLP-1-oriented line). In our understanding, cheese is faster and more profitable to dry — supporting the path from a ~25% normalized margin toward the ~35% target.
 
 ### 6. International
 Initial European orders (Aldi/Lidl exposure, a few containers, ~$500K) are nascent but extend the demand base beyond the U.S.
@@ -142,7 +142,7 @@ The going-concern risk materializes: BOF cannot fund the gap to durable profitab
 BOF survives but never reaches escape velocity: revenue stalls around $25–30M, margins remain stuck near the normalized ~25% rather than expanding, and the company funds itself with chronic small raises into a weak stock. The brutal feature here is dilution — perpetual issuance at $2–3 balloons the share count toward 30–40M while the multiple stays low (~1.8x revenue). **Conditional value: ~$0.69/share** — an ~84% loss, nearly as bad as outright failure. The muddle path is the quiet killer: 30% of the probability for almost none of the value.
 
 ### Path 3 — Scale & Stay Public (probability 26%)
-Operational scaling works — throughput ramps, margins climb toward 40%, and BOF becomes a profitable, growing public BFY company (the Simply Good Foods / BellRing template) without being acquired. Exit revenue distribution centers on ~$85M, valued at ~2.8x revenue (no control premium), against a moderately diluted ~24M share count. **Conditional value: ~$6.55/share.**
+Operational scaling works — throughput ramps, margins climb toward ~35%, and BOF becomes a profitable, growing public BFY company (the Simply Good Foods / BellRing template) without being acquired. Exit revenue distribution centers on ~$85M, valued at ~2.8x revenue (no control premium), against a moderately diluted ~24M share count. **Conditional value: ~$6.55/share.**
 
 ### Path 4 — Scale & Acquired (probability 32%)
 Scaling works *and* a strategic acquirer (PepsiCo/Frito-Lay, Hershey, or Mondelez) buys BOF, paying the BFY-snack M&A multiple of 3.6–4.4x revenue. Exit revenue centers on ~$115M with a right tail to ~$220M (the "scale-further-then-sell" super-bull), and bigger exits are modeled to take longer (up to ~7.5 years) and require more dilution (up to ~32M shares) — so the tail is honest, not free. **Conditional value: ~$11.49/share.** This path contributes the largest single slice of expected value ($3.67 of $5.61).
@@ -253,20 +253,20 @@ BOF is pre-scale and barely profitable, so peer multiples are directional contex
 | Simply Good Foods (SMPL) | ~3–4x | ~15–17x | ~5–10% | Scaled BFY (Atkins, Quest) |
 | Utz Brands (UTZ) | ~1.5–2x | ~11–13x | low-single-digit | Mature salty snack |
 
-The takeaway: BOF already trades at a *scaled-company* EV/Revenue multiple while still carrying micro-cap, pre-profit, going-concern risk. That is only justifiable if you underwrite the scaling — which is exactly what the probabilistic model forces you to price. A successfully scaled BOF at ~40% gross margin would, like BRBR/SMPL, command a mid-teens-or-better EV/EBITDA and a 3–4x+ revenue multiple, which is what the scaling paths assume.
+The takeaway: BOF already trades at a *scaled-company* EV/Revenue multiple while still carrying micro-cap, pre-profit, going-concern risk. That is only justifiable if you underwrite the scaling — which is exactly what the probabilistic model forces you to price. A successfully scaled BOF at ~35% gross margin would, like BRBR/SMPL, command a mid-teens-or-better EV/EBITDA and a 3–4x+ revenue multiple, which is what the scaling paths assume.
 
 ---
 
 ## Key Risks
 
-1. **Operational scaling fails (the master risk).** If REV throughput cannot ramp reliably and economically, the entire thesis collapses — revenue stalls, margins never reach 40%, and the company drifts into the muddle or failure paths. This is the one risk that subsumes most others.
+1. **Operational scaling fails (the master risk).** If REV throughput cannot ramp reliably and economically, the entire thesis collapses — revenue stalls, margins never reach ~35%, and the company drifts into the muddle or failure paths. This is the one risk that subsumes most others.
 2. **Liquidity / going concern.** $0.9M cash against ~$2M/quarter burn and a January 2027 Kaufman note maturity means a near-term raise is forced; a closed financing window or a botched raise could be fatal. Auditors carry substantial-doubt language.
 3. **Dilution.** Even in good outcomes the share count rises ~50%+; in bad outcomes, low-price issuance can balloon it past 40M, transferring most equity value away from current holders. The first raise, at ~$4, is the most dilutive.
 4. **Customer concentration.** Roughly 99% of revenue runs through two retailers (Costco, Sam's Club). The loss or de-listing of a single SKU at one club would be materially damaging.
 5. **Execution / guidance credibility.** Management has a documented history of missing its own revenue projections (2023–2025). The model's revenue ramps should be treated with corresponding skepticism.
 6. **Counterparty concentration (Kaufman).** Solvency is tied to a single 34.5%-FD backer; a change in Kaufman's posture would remove the safety net.
 7. **Tariff / trade policy.** The Peru tariff exemption is partial and classification-dependent; a reversal or an adverse HS ruling on processed product would re-impose a ~5%+ COGS drag.
-8. **Margin assumptions.** The 40% mature gross margin is our assumption, not yet demonstrated at scale; raw-material (produce) cost inflation or yield shortfalls could cap margins near the ~25% normalized level (the muddle outcome).
+8. **Margin assumptions.** The ~35% mature gross margin is our assumption, not yet demonstrated at scale; raw-material (produce) cost inflation or yield shortfalls could cap margins near the ~25% normalized level (the muddle outcome).
 9. **Key-person dependence.** A founder-led micro-cap is exposed to the loss of Eric Healy or CFO John Dalfonsi, who together drive operations and capital strategy.
 10. **Acquisition is not guaranteed.** The strategic-exit tail depends on both reaching scale *and* a buyer emerging at an acceptable price within the horizon — neither is assured, and a forced or distressed sale would clip the multiple.
 
