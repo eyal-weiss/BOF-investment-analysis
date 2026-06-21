@@ -1,0 +1,5 @@
+.ipynb_checkpoints/
+.claude/
+__pycache__/
+_fig_*.png
+*.pyc
