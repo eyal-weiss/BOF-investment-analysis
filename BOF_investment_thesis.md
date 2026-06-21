@@ -30,15 +30,16 @@ The expected value of **$5.61 implies ~31% upside** to the $4.28 price, with a m
 
 1. [Executive Summary](#executive-summary)
 2. [Company Overview](#company-overview)
-3. [Key Concepts an Investor Must Understand](#key-concepts-an-investor-must-understand)
-4. [Growth Strategy / Key Opportunities](#growth-strategy--key-opportunities)
-5. [Why a Probabilistic Model, Not a DCF](#why-a-probabilistic-model-not-a-dcf)
-6. [Scenario Analysis: The Four Paths](#scenario-analysis-the-four-paths)
-7. [Probabilistic Scenario Valuation](#probabilistic-scenario-valuation)
-8. [M&A Exit Multiple & Comparable Transactions](#ma-exit-multiple--comparable-transactions)
-9. [Peer Comparison](#peer-comparison)
-10. [Key Risks](#key-risks)
-11. [Conclusion](#conclusion)
+3. [The Peru Operating Environment](#the-peru-operating-environment)
+4. [Key Concepts an Investor Must Understand](#key-concepts-an-investor-must-understand)
+5. [Growth Strategy / Key Opportunities](#growth-strategy--key-opportunities)
+6. [Why a Probabilistic Model, Not a DCF](#why-a-probabilistic-model-not-a-dcf)
+7. [Scenario Analysis: The Four Paths](#scenario-analysis-the-four-paths)
+8. [Probabilistic Scenario Valuation](#probabilistic-scenario-valuation)
+9. [M&A Exit Multiple & Comparable Transactions](#ma-exit-multiple--comparable-transactions)
+10. [Peer Comparison](#peer-comparison)
+11. [Key Risks](#key-risks)
+12. [Conclusion](#conclusion)
 
 ---
 
@@ -61,6 +62,14 @@ The expected value of **$5.61 implies ~31% upside** to the $4.28 price, with a m
 | Accumulated deficit | — | — | — | $25.5M (going concern) |
 
 At $4.28 (June 21, 2026), BOF's ~15.32M shares imply a **~$66M market cap and ~$72M enterprise value** — roughly **5.3x trailing (FY2025) revenue and ~3.6x the FY2026 guide**. The stock is *not* cheap on current numbers; the entire investment case rests on scaling into and beyond that valuation.
+
+---
+
+## The Peru Operating Environment
+
+**A high-quality, low-cost produce base.** Peru is one of the world's premier agricultural exporters, not a frontier sourcing gamble — a fact that materially de-risks BOF's dependence on a single country. It is the global leader in blueberry and table-grape exports, the **second-largest avocado exporter, and a top global supplier of mango and citrus**; total agricultural exports are on track for a **record ~$14 billion in 2025**, spanning 540 products to 115 destinations, with the United States as the single largest market (~33%). Crucially for BOF, the sector is diversified and resilient — nearly **15 distinct products each exceed $100M** in annual exports — and the country's coastal-desert-plus-Andean geography enables year-round, counter-seasonal production of consistently high-quality fruit, which is precisely why global retailers source so heavily from it. This is the deep, reliable, low-cost supply base that underpins BOF's cost moat, including its exclusive access to the cosmetically-imperfect-but-internally-perfect produce that competitors at U.S. wage and input costs cannot replicate.
+
+**Stable macroeconomic and institutional conditions — even through political noise.** Peru carries **investment-grade sovereign ratings from all three major agencies** (Fitch BBB, Moody's Baa1, S&P BBB−), each on a *stable* outlook, anchored by one of the strongest balance sheets in its rating category: a low debt burden, fiscal savings of ~10% of GDP, a 12-year-plus average debt maturity, and ample international reserves. **Inflation fell to ~2.0% in 2024 — among the lowest in Latin America** — under an independent, credible central bank (BCRP), and the sol has been one of the steadiest emerging-market currencies. The honest caveat is that Peru's *executive* politics have been turbulent (frequent presidential turnover since 2020), but its macroeconomic and monetary policy framework, market-oriented investment climate, and agroexport engine have proven **remarkably insulated from that churn** — a "sound policy framework [that] supported a return to growth amid regional volatility." For a manufacturer whose operations depend on currency stability, trade access, and an uninterrupted agricultural supply chain rather than on who holds the presidency, the relevant conditions are stable. *(Sources: [FreshFruitPortal — Peru record $14B ag export year](https://www.freshfruitportal.com/news/2025/11/13/agronometrics-peru-record/); [USDA FAS — Peru's fruit sector](https://www.fas.usda.gov/data/spotlight-perus-fruit-sector-races-new-heights); [Moody's — Peru ratings](https://ratings.moodys.com/ratings-news/428879); [U.S. State Dept — 2025 Investment Climate Statement: Peru](https://www.state.gov/reports/2025-investment-climate-statements/peru).)*
 
 ---
 
