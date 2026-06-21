@@ -38,8 +38,7 @@ code(r"""import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-np.random.seed(42)
-pd.set_option('display.float_format', lambda x: f'{x:,.2f}')
+pd.set_option('display.float_format', lambda x: f'{x:,.2f}')   # all randomness flows through run_mc's seeded rng
 
 N_SIMS   = 200_000      # Monte Carlo draws
 DISCOUNT = 0.12         # cost of equity (survival risk is in the probabilities, not the rate)
@@ -89,7 +88,8 @@ YEARS_PUBLIC = (4, 5, 6)
 YEARS_MUDDLE = (4, 5, 6)
 
 # ---- Failure residual equity value per share (triangular) -----------------
-FAIL_VPS = (0.0, 0.10, 0.50)
+FAIL_VPS   = (0.0, 0.10, 0.50)
+FAIL_YEARS = (1, 2, 3)                    # residual realised over a short wind-down, then discounted
 
 print("Control panel loaded.")
 print(f"  Sims {N_SIMS:,} | Discount {DISCOUNT:.0%} | Price ${PRICE_NOW:.2f} | Shares now {SHARES_NOW:.2f}M")
@@ -108,12 +108,14 @@ Each draw picks a path by probability, then within the path:
 (more capacity ⇒ more capital ⇒ more dilution), and for the **acquired** path **time-to-exit rises
 with revenue** (a \$200M exit lands ~7–8 yr out, not 5). This is what keeps the super-bull tail honest
 instead of rewarding big revenue with no cost.""")
-code(r"""def tri(p, k): return np.random.triangular(p[0], p[1], p[2], k)
+code(r"""def tri(rng, p, k): return rng.triangular(p[0], p[1], p[2], k)
 
 def run_mc(probs=P, rev=REV, mult=MULT, dil=None, dil_base=None, muddle_shares=MUDDLE_SHARES,
            ndv=NDV, netdebt_mud=NETDEBT_MUD, tcorr=TCORR, years_public=YEARS_PUBLIC,
-           years_muddle=YEARS_MUDDLE, fail_vps=FAIL_VPS, discount=DISCOUNT, n=N_SIMS, seed=42):
+           years_muddle=YEARS_MUDDLE, fail_vps=FAIL_VPS, fail_years=FAIL_YEARS,
+           discount=DISCOUNT, n=N_SIMS, seed=42):
     # Returns DataFrame: path label, present value per share, and exit (undiscounted) price.
+    # Every random draw flows through this single rng, so `seed` fully controls reproducibility.
     dil = dict(DIL) if dil is None else dil
     if dil_base is not None: dil = {**dil, 'base_shares': dil_base}
     rng = np.random.default_rng(seed)
@@ -125,22 +127,23 @@ def run_mc(probs=P, rev=REV, mult=MULT, dil=None, dil_base=None, muddle_shares=M
         mask = paths == i; k = int(mask.sum())
         if k == 0: continue
         if name == 'failure':
-            pv[mask] = tri(fail_vps, k); continue
+            yrs = tri(rng, fail_years, k)                                       # residual discounted, like every path
+            pv[mask] = tri(rng, fail_vps, k) / (1 + discount) ** yrs; continue
         if name == 'muddle':
-            ev  = tri(rev['muddle'], k) * tri(mult['muddle'], k)
-            sh  = tri(muddle_shares, k); yrs = tri(years_muddle, k)
+            ev  = tri(rng, rev['muddle'], k) * tri(rng, mult['muddle'], k)
+            sh  = tri(rng, muddle_shares, k); yrs = tri(rng, years_muddle, k)
             ep  = np.maximum(ev - netdebt_mud, 0) / sh
             exitp[mask] = ep; pv[mask] = ep / (1 + discount) ** yrs; continue
         # ---- scaling paths: correlated drivers ----
-        r   = tri(rev[name], k); m = tri(mult[name], k)
+        r   = tri(rng, rev[name], k); m = tri(rng, mult[name], k)
         sh  = np.clip(dil['base_shares'] + dil['slope'] * (r - dil['ref_rev'])
-                      + np.random.normal(0, dil['noise'], k), 17, None)        # dilution ~ revenue
+                      + rng.normal(0, dil['noise'], k), 17, None)               # dilution ~ revenue
         nd  = np.maximum(ndv['base'] + ndv['slope'] * (r - ndv['ref_rev']), 0)  # net debt ~ revenue
         if name == 'scale_acquired':
             yrs = np.clip(tcorr['base_years'] + tcorr['slope'] * (r - tcorr['ref_rev'])
-                          + np.random.normal(0, tcorr['noise'], k), 2.5, 9)     # time ~ revenue
+                          + rng.normal(0, tcorr['noise'], k), 2.5, 9)           # time ~ revenue
         else:
-            yrs = tri(years_public, k)
+            yrs = tri(rng, years_public, k)
         ep  = np.maximum(r * m - nd, 0) / sh
         exitp[mask] = ep; pv[mask] = ep / (1 + discount) ** yrs
 
@@ -296,9 +299,10 @@ for sp in scaling_probs:
 print("Sensitivity to P(scaling works):")
 print(pd.DataFrame(rows).to_string(index=False))
 print("\nSensitivity to discount rate:")
-rows = [{'Discount': f"{dr:.1%}", 'E[value]': f"${run_mc(discount=dr, seed=3)['pv'].mean():.2f}",
-         'Upside': f"{run_mc(discount=dr, seed=3)['pv'].mean()/PRICE_NOW-1:+.0%}"}
-        for dr in [0.10, 0.12, 0.15, 0.175, 0.20]]
+rows = []
+for dr in [0.10, 0.12, 0.15, 0.175, 0.20]:
+    ev = run_mc(discount=dr, seed=3)['pv'].mean()    # run once; E[value] and Upside from the same sample
+    rows.append({'Discount': f"{dr:.1%}", 'E[value]': f"${ev:.2f}", 'Upside': f"{ev/PRICE_NOW-1:+.0%}"})
 print(pd.DataFrame(rows).to_string(index=False))""")
 
 # ---------------------------------------------------------------- implied prob & CAGR
