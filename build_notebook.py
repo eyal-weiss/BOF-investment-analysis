@@ -301,8 +301,46 @@ rows = [{'Discount': f"{dr:.1%}", 'E[value]': f"${run_mc(discount=dr, seed=3)['p
         for dr in [0.10, 0.12, 0.15, 0.175, 0.20]]
 print(pd.DataFrame(rows).to_string(index=False))""")
 
+# ---------------------------------------------------------------- implied prob & CAGR
+md(r"""## 8. What the Market Price Implies & Return CAGR by Exit Scenario
+
+Two reads investors actually want: (a) what probability of scaling the **current price** is paying for —
+both at face value *and* after the margin of safety micro-cap, not-yet-profitable names warrant — and
+(b) the **annualized return (CAGR)** an investor earns from today's price in each constructive exit.""")
+code(r"""# (1) Market-implied probability of successful scaling
+Pgrid = np.linspace(0.40, 0.75, 8)
+acq_share = P['scale_acquired'] / (P['scale_public'] + P['scale_acquired'])
+evs = []
+for sp in Pgrid:
+    pp = {'failure': P['failure'], 'muddle': 1 - P['failure'] - sp,
+          'scale_acquired': sp*acq_share, 'scale_public': sp*(1-acq_share)}
+    evs.append(run_mc(probs=pp, seed=5)['pv'].mean())
+a_fit, b_fit = np.polyfit(Pgrid, evs, 1)
+P_for = lambda ev: (ev - b_fit) / a_fit
+print("MARKET-IMPLIED PROBABILITY OF SCALING (price ${:.2f})".format(PRICE_NOW))
+print(f"  Break-even (price = model fair value): {P_for(PRICE_NOW):.0%}")
+print("  Adjusted for a typical micro-cap margin of safety (price = fair value x (1-MoS)):")
+for mos in [0.20, 0.25, 0.30, 0.35]:
+    fv = PRICE_NOW / (1 - mos)
+    print(f"    MoS {mos:.0%}: implied fair value ${fv:.2f}  ->  implied P(scaling) {P_for(fv):.0%}")
+
+# (2) Return CAGR by exit scenario (model-consistent shares, net debt, timing)
+shares = lambda rev: DIL['base_shares'] + DIL['slope']*(rev - DIL['ref_rev'])
+ndebt  = lambda rev: NDV['base'] + NDV['slope']*(rev - NDV['ref_rev'])
+def row(name, rev, mult, yrs):
+    ep = (rev*mult - ndebt(rev)) / shares(rev)
+    return name, rev, mult, yrs, ep, ep/PRICE_NOW, (ep/PRICE_NOW)**(1/yrs) - 1
+scen = [row("Scale & public", 85, 2.80, 5.0), row("Acquired base", 115, 4.00, 5.0),
+        row("Acquired", 150, 4.25, 5.8), row("Super-bull $200M", 200, 4.25, 7.0),
+        row("Super-bull $220M", 220, 4.50, 7.5)]
+print(f"\nRETURN CAGR BY EXIT SCENARIO (entry ${PRICE_NOW:.2f}):")
+for name, rev, mult, yrs, ep, x, c in scen:
+    print(f"  {name:18s} ${rev:>3.0f}M {mult:.2f}x  {yrs:.1f}yr  exit ${ep:6.2f}  {x:4.1f}x  CAGR {c*100:+5.1f}%")
+print(f"  {'Muddle':18s}  (sub-scale)        ~5yr  exit ~$1.22   0.3x  CAGR  -22%")
+print(f"  {'Failure':18s}  (equity impaired)               ~ -100% (near-total loss)")""")
+
 # ---------------------------------------------------------------- summary
-md("""## 8. Summary
+md("""## 9. Summary
 
 The model returns an **expected value** and a **full distribution**: the central estimate vs the $4.28 price,
 *and* the shape of the bet (fat left tail from failure/muddle, fat right tail from a strategic exit).

@@ -16,7 +16,7 @@ Unlike a conventional DCF, BOF is valued with a **probabilistic scenario / Monte
 | Scale & acquired by a strategic | 32% | ~$11.49 | $3.67 |
 | **Probability-weighted expected value** | **100%** | **$5.61 (+31%)** | **$5.61** |
 
-Median $5.79 · P(≥2x) 34% · P(near-total loss) 16%. The thesis is a **fairly-priced ~58/42 binary on operational scaling** of the Peru REV throughput; the investor's edge is whether their conviction on scaling exceeds the ~58% the market is pricing. The bull tail — scale to ~$200M revenue, then a strategic exit (PepsiCo/Hershey/Mondelez) at ~4x revenue — is worth ~$12/share after honest time-and-dilution drag.
+Median $5.79 · P(≥2x) 34% · P(near-total loss) 16%. The thesis is a **~58/42 binary on operational scaling** of the Peru REV throughput. At $4.28 the price capitalizes only a **~43% chance of scaling at face value** (≈59–64% once the usual micro-cap margin of safety is applied), versus a ~58% base case — implying ~31% upside. Winning exits compound at a **~30–34% CAGR**; the bull tail — scale to ~$200M revenue, then a strategic exit (PepsiCo/Hershey/Mondelez) at ~4x revenue — is worth ~$12/share after honest time-and-dilution drag.
 
 ## Contents
 

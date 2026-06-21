@@ -22,7 +22,7 @@ The result is a **bimodal bet on one variable: whether the Peru operation scales
 | Scale & acquired by a strategic | 32% | ~$11.49 | $3.67 |
 | **Probability-weighted expected value** | **100%** | **$5.61** | **$5.61** |
 
-The expected value of **$5.61 implies ~31% upside** to the $4.28 price, with a median of $5.79, a 34% probability of a ≥2x outcome, and a 16% probability of near-total loss. The three pillars: **(1)** a genuine, hard-to-replicate cost moat (Peru + a ~4-year head start) with demand already proven by warehouse-club wins; **(2)** the valuation is a fairly-priced binary on operational scaling, so the entire edge is in whether your conviction on the Peru throughput ramp exceeds the ~58% the market is paying for; and **(3)** an asymmetric right tail — a "scale-to-$200M-then-sell" strategic exit to a PepsiCo/Hershey/Mondelez at 4x revenue is worth ~$12/share even after honest time-and-dilution drag.
+The expected value of **$5.61 implies ~31% upside** to the $4.28 price, with a median of $5.79, a 34% probability of a ≥2x outcome, and a 16% probability of near-total loss. The three pillars: **(1)** a genuine, hard-to-replicate cost moat (Peru + a ~4-year head start) with demand already proven by warehouse-club wins; **(2)** at $4.28 the price capitalizes only a **~43% chance of scaling at face value** (≈59–64% once the usual micro-cap margin of safety is applied), versus our ~58% base case — so the edge is simply whether your conviction on the Peru throughput ramp clears that bar; and **(3)** an asymmetric right tail — a "scale-to-$200M-then-sell" strategic exit to a PepsiCo/Hershey/Mondelez at 4x revenue is worth ~$12/share even after honest time-and-dilution drag.
 
 ---
 
@@ -180,7 +180,7 @@ Scaling works *and* a strategic acquirer (PepsiCo/Frito-Lay, Hershey, or Mondele
 |----|-----|-----|-----|-----|-----|-----|
 | $0.16 | $0.32 | $0.66 | $5.79 | $10.28 | $12.16 | $13.04 |
 
-The distribution is **bimodal**, not bell-shaped: ~42% of the probability mass (failure + muddle) clusters near zero, and ~58% (scaling works) lands in a $6–14 cluster. This is why the **median ($5.79) sits above the mean ($5.61)** — more than half the mass is in the win cluster, but the near-zero tail drags the average down. An investor is, in effect, buying a **~58/42 binary on operational scaling**, priced today close to its probability-weighted fair value.
+The distribution is **bimodal**, not bell-shaped: ~42% of the probability mass (failure + muddle) clusters near zero, and ~58% (scaling works) lands in a $6–14 cluster. This is why the **median ($5.79) sits above the mean ($5.61)** — more than half the mass is in the win cluster, but the near-zero tail drags the average down. An investor is, in effect, buying a **~58/42 binary on operational scaling**, priced today at roughly a 24% discount to its probability-weighted fair value — the price equates to fair value only at ~43% scaling odds (see *What the Market Price Implies*, below).
 
 ### The Super-Bull, Fully Costed
 
@@ -207,7 +207,7 @@ Because the case is a binary on scaling, the expected value is most sensitive to
 | 66% | 22% | $6.30 | +47% | 38% | 35% |
 | 75% | 13% | $7.06 | +65% | 43% | 26% |
 
-Each ~8 points of scaling probability is worth roughly +$0.70 of expected value. **If your conviction on the Peru throughput ramp is materially above 58%, BOF is undervalued; if scaling is a true coin-flip, it is roughly fairly priced with ugly downside.**
+Each ~8 points of scaling probability is worth roughly +$0.70 of expected value. **At our 58% base case BOF is undervalued (+31%); the price equates to fair value only at ~43% scaling odds, so even a coin-flip (~50%) view leaves modest upside — but with ugly downside if you are wrong.**
 
 ### Dilution Sensitivity
 
@@ -230,6 +230,37 @@ Roughly every +3M shares costs ~$0.50 of blended expected value — a reminder t
 | Expected value | $6.18 | $5.62 | $4.89 | $4.36 | $3.91 |
 
 A 12% cost of equity is appropriate here because survival/idiosyncratic risk is already expressed in the path probabilities; an investor who prefers to double-count that risk at 15% would see the stock as roughly fairly valued ($4.89).
+
+### What the Market Price Implies About Scaling Odds
+
+Inverting the model against the $4.28 price answers the question every investor in a binary name should ask: *what probability of success am I being asked to pay for?* At face value — solving for the `P(scaling works)` at which the model's expected value equals the price — the market is paying for only a **~43% chance of scaling**, *below* our 58% base case and barely above a coin flip.
+
+But that face-value read ignores how micro-cap, not-yet-profitable equities are actually priced: investors demand a **margin of safety** — they will not pay full intrinsic value for a going-concern name, only a discount to it. Re-solving with the price set at fair-value × (1 − margin of safety):
+
+| Margin of safety | Implied fair value | Implied P(scaling) |
+|---|---|---|
+| 0% (face value) | $4.28 | **~43%** |
+| 20% | $5.35 | ~55% |
+| 25% | $5.71 | ~59% |
+| 30% | $6.11 | ~64% |
+
+The interpretation flips with the lens. **Taken literally, the tape prices sub-coin-flip scaling odds (~43%) — but once you account for the ~25–30% discount these names rationally warrant, the price is consistent with the market genuinely believing ~59–64%, essentially our base case (or a touch above).** Either way the asymmetry is favorable: an investor whose own conviction on the Peru ramp exceeds ~43% is more than compensated, and the margin-of-safety framing suggests the view embedded in the price is already close to our 58%.
+
+### Return CAGR by Exit Scenario
+
+For a position entered at $4.28 today, the annualized return (CAGR) across the constructive exits — using the model's own correlated share counts, net debt, and timing — is:
+
+| Exit scenario | Exit revenue | Multiple | Years | Exit price | MOIC | **CAGR** |
+|---|---|---|---|---|---|---|
+| Scale & stay public | ~$85M | 2.8x | 5.0 | $10.48 | 2.4x | **+20%** |
+| Acquired (base) | ~$115M | 4.0x | 5.0 | $18.65 | 4.4x | **+34%** |
+| Acquired | ~$150M | 4.25x | 5.8 | $23.41 | 5.5x | **+34%** |
+| Super-bull | ~$200M | 4.25x | 7.0 | $27.43 | 6.4x | **+30%** |
+| Super-bull | ~$220M | 4.5x | 7.5 | $30.49 | 7.1x | **+30%** |
+| Muddle (sub-scale) | — | — | ~5 | ~$1.22 | 0.3x | **−22%** |
+| Failure | — | — | — | ~$0.20 | ~0 | **~−100%** |
+
+Two things stand out. First, the **winning outcomes cluster around a 30–34% CAGR** — and notably, the bigger super-bull exits do *not* deliver a higher annualized return than the base acquisition, because the extra scale takes more years and more dilution to reach (the longer runway compresses the CAGR even as the multiple-on-invested-capital rises). **The best *annualized* return comes from a clean acquisition at ~$115–150M in ~5 years, not from holding out for $200M+.** Second, the downside is severe and fast — muddle compounds at roughly −22%/year and failure is a near-total loss — which is why position sizing, not just direction, is the operative question.
 
 ---
 
@@ -283,11 +314,11 @@ The takeaway: BOF already trades at a *scaled-company* EV/Revenue multiple while
 
 ## Conclusion
 
-BranchOut Food is best understood not as a cheap stock or an expensive one, but as a **fairly-priced binary**. At $4.28, the market is paying close to the probabilistic fair value of ~$5.61 — which means it is already capitalizing a roughly 58% chance that the Peru operation scales. The investment question is therefore unusually clean: **do you believe the probability of successful operational scaling is higher than ~58%?** If you do — and the demand side is already proven by Costco, Sam's Club, and Target, leaving "only" the throughput-and-margin ramp in question — then BOF is undervalued, with a median outcome of ~$5.79, a one-in-three chance of doubling, and a strategic-exit right tail worth ~$12 (and up to ~$13 in the scale-to-$200M super-bull).
+BranchOut Food is best understood not as a cheap stock or an expensive one, but as a **binary priced with a margin of safety**. At $4.28 the price capitalizes only a ~43% chance that the Peru operation scales at face value — below the model's ~58% base case — implying ~31% upside to the ~$5.61 probability-weighted fair value; adjusted for the ~25–30% discount a going-concern micro-cap rationally warrants, the price is consistent with the market itself believing ~59–64%. The investment question is therefore unusually clean: **do you believe the probability of successful operational scaling is higher than the ~43% the tape demands at face value?** If you do — and the demand side is already proven by Costco, Sam's Club, and Target, leaving "only" the throughput-and-margin ramp in question — then BOF is undervalued, with a median outcome of ~$5.79, a one-in-three chance of doubling, and a strategic-exit right tail worth ~$12 (and up to ~$13 in the scale-to-$200M super-bull).
 
 The discipline of the model is as important as its conclusion. It refuses to reward the bull case for free: bigger outcomes are penalized with the dilution and the time they actually require, which is why even a $200M acquisition is a ~2.9x rather than the ~13x a back-of-the-envelope would suggest. And it makes the downside unflinching — a combined ~42% probability of failure-or-muddle, both of which return well under a dollar. This is a high-variance, bimodal position whose left tail is real and whose value is created almost entirely by one variable.
 
-**Risk/reward assessment.** The expected value offers ~31% upside at a 12% discount rate, the distribution is favorably skewed for a patient holder (median above the mean, 34% probability of ≥2x against a 16% probability of near-total loss), and the moat — Peru cost advantage plus a ~4-year head start with demand already validated — is genuine. But this is appropriately sized as a *small, high-conviction-on-scaling* position, not a core holding: the going-concern and dilution risks are live, execution credibility is mixed, and the whole thesis rests on a single plant in Peru learning to run at scale. For an investor whose independent read on operational scaling exceeds the ~58% the market is pricing, BOF is a compelling asymmetric bet. For one who cannot get comfortable above a coin-flip on the throughput ramp, it is a pass.
+**Risk/reward assessment.** The expected value offers ~31% upside at a 12% discount rate, the distribution is favorably skewed for a patient holder (median above the mean, 34% probability of ≥2x against a 16% probability of near-total loss), and the moat — Peru cost advantage plus a ~4-year head start with demand already validated — is genuine. But this is appropriately sized as a *small, high-conviction-on-scaling* position, not a core holding: the going-concern and dilution risks are live, execution credibility is mixed, and the whole thesis rests on a single plant in Peru learning to run at scale. For an investor whose independent read on operational scaling exceeds the ~43% the price implies at face value — let alone our 58% base case — BOF is a compelling asymmetric bet. For one who cannot get comfortable above a coin-flip on the throughput ramp, it is a pass.
 
 ---
 
