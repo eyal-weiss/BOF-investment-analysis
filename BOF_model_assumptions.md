@@ -5,7 +5,15 @@ For a sub-scale company whose future is a few discrete development paths, we mod
 *consequence* for the per-share value and weight by its *probability*, producing an expected value
 **and a full distribution** of per-share outcomes.
 
-Last updated: 2026-06 (research date). Currency in USD; financials in $ millions unless noted.
+Last updated: **2026-06-30** (Sam's Club everyday-placement catalyst). Currency in USD; financials in $ millions unless noted.
+
+> **2026-06-30 update.** BranchOut converted its Sam's Club (nation's #2 warehouse club) placement to
+> **everyday recurring** in **309 clubs** at an estimated **$8M annual revenue** (shipments Sep 2026), and
+> management expects the program to drive **positive operating cash flow** and improved factory utilisation /
+> gross margin. A **$1.0M non-convertible loan (8%, Kaufman)** funds the raw-material / production ramp.
+> Because the event bears on the model's central binary (*does scaling work?*), it is expressed as a **path-
+> probability shift** (failure 12→9, muddle 30→27, P(scaling) 58→**64%**) plus a +$0.5M net-debt nudge for
+> the loan. Result: E[value] **$5.61 → $6.10** (+31% → **+43%**). Exit distributions unchanged (modes are years out).
 
 ---
 
@@ -13,13 +21,13 @@ Last updated: 2026-06 (research date). Currency in USD; financials in $ millions
 
 | Item | Value | Source |
 |---|---|---|
-| Share price | $4.28 | market, Jun 2026 |
+| Share price | $4.28 (≈$4.30 spot, Jul 1 2026 — barely moved on the news) | market, Jun 2026 |
 | Basic shares out | 15.32M | 10-Q / cover, Jun 18 2026 |
 | Market cap | ~$66M | derived |
 | Cash | $0.9M | 10-Q, Mar 31 2026 |
-| Total debt | ~$7.6M | 10-Q (Kaufman convert $2.9M @ $0.7582; Kaufman senior secured $1.5M; EnWave equip loan $1.5M; Peru finance lease $1.7M; EIDL) |
-| Net debt | ~$6.7M | derived |
-| Enterprise value | ~$72M | derived |
+| Total debt | ~$8.6M | 10-Q + **$1.0M Kaufman working-capital loan (8%, Jun 2026)**; (Kaufman convert $2.9M @ $0.7582; Kaufman senior secured $1.5M; EnWave equip loan $1.5M; Peru finance lease $1.7M; EIDL) |
+| Net debt | ~$7.7M | derived |
+| Enterprise value | ~$73M | derived |
 | FY2025 revenue | $13.7M (+113% YoY) | press release / 10-K |
 | FY2026 revenue guide | "$20M+" | mgmt, Q4'25 call |
 | Reported GM (FY25) | ~16% (depressed by air freight + tariff) | 10-K |
@@ -34,8 +42,11 @@ Last updated: 2026-06 (research date). Currency in USD; financials in $ millions
 - **Moat:** Peru cost base ($1.5/hr labor, exclusive access to cosmetically-imperfect produce),
   ~4-year head start, customer relationships hard to win. Demand is **not** the constraint —
   **scaling throughput is** (filings + analyst diligence). This is the binding risk.
-- **Customers (verified):** Costco (multi-region), Sam's Club (nationwide May'26), Target (~2,000 stores Sep'26),
-  Walmart (slipped to 2027), MicroDried ingredient channel ($5–6M), a large tolling partner, a chocolate CPG.
+- **Customers (verified):** Costco (multi-region), **Sam's Club — converted to EVERYDAY placement in 309 clubs
+  Sep'26, ~$8M/yr est. (Jun-30-2026 release)**, Target (~2,000 stores Sep'26), Walmart (slipped to 2027),
+  MicroDried ingredient channel ($5–6M), a large tolling partner, a chocolate CPG. The Sam's everyday conversion
+  is the first hard, dated evidence that the "scaling works" binary is resolving favourably — velocity hit the
+  "highest end of the retailer's thresholds," and mgmt ties it to **positive operating cash flow**.
 - **Maturity mix (analyst assumption):** brand 40% / private label 40% / ingredient 20%.
 - **Margins (analyst assumption):** 35% GM realistic at scale (in line with best scaled branded-snack peers; Peru cost base supports it).
 
@@ -53,14 +64,18 @@ Last updated: 2026-06 (research date). Currency in USD; financials in $ millions
 Winning = **scaling works**. `P(acquired) = P(scaling works) × P(sell | scaled)`.
 The 3-vs-4 split is immaterial to the thesis (both are wins); reported separately for the distribution's right tail.
 
-| # | Path | Definition | Base prob |
-|---|---|---|---|
-| 1 | **Failure** | Going concern fails / dilution spiral; equity ≈ $0 | 12% |
-| 2 | **Muddle** | Survives sub-scale, chronic dilution, barely profitable | 30% |
-| 3 | **Scale & public** | Operational scaling works; profitable growth co., stays public (Simply Good Foods / BellRing template) | 26% |
-| 4 | **Scale & acquired** | Scaling works AND a strategic buys it (PepsiCo/Hershey/Mondelez) | 32% |
+| # | Path | Definition | Base prob (pre-news) | **Base prob (post 6-30)** |
+|---|---|---|---|---|
+| 1 | **Failure** | Going concern fails / dilution spiral; equity ≈ $0 | 12% | **9%** |
+| 2 | **Muddle** | Survives sub-scale, chronic dilution, barely profitable | 30% | **27%** |
+| 3 | **Scale & public** | Operational scaling works; profitable growth co., stays public (Simply Good Foods / BellRing template) | 26% | **29%** |
+| 4 | **Scale & acquired** | Scaling works AND a strategic buys it (PepsiCo/Hershey/Mondelez) | 32% | **35%** |
+| | **P(scaling works)** | | 58% | **64%** |
 
-*Notes:* Probabilities are tweakable. User priors were 10/30/15/45; analyst counter 13/30/24/33; base case ≈ midpoint.
+*Notes:* Probabilities are tweakable. User priors were 10/30/15/45; analyst counter 13/30/24/33; prior base 12/30/26/32.
+**6-30-2026 shift:** the Sam's Club everyday conversion + positive-OCF guidance de-risks the scaling binary — cut
+failure 3pts (going-concern risk falls with positive OCF), trim muddle 3pts, add 6pts to scaling (split ~proportionally).
+64% sits right at the ~59–64% the tape implies once a micro-cap margin of safety is applied.
 **Kaufman Heinz correction:** Kraft Heinz is a *divester*; natural acquirers are PepsiCo/Frito-Lay (Bare precedent), Hershey, Mondelez.
 
 ## 5. Per-path value drivers (Monte Carlo distributions; triangular = min/mode/max)
@@ -71,7 +86,7 @@ The 3-vs-4 split is immaterial to the thesis (both are wins); reported separatel
 | Exit basis | residual | EV/Rev | EV/Rev (no control premium) | EV/Rev (M&A) |
 | Exit multiple (EV/Rev) | — | (1.0 / 1.8 / 2.5) | (2.0 / 2.8 / 3.5) | (3.5 / 4.0 / 5.0) |
 | **Exit shares (M)** | n/a | (28 / 30 / 40) | correlated w/ revenue | correlated w/ revenue |
-| Net debt at exit ($M) | — | ~8 | ~9 + 0.04·(rev−90) | ~9 + 0.04·(rev−90) |
+| Net debt at exit ($M) | — | ~8.5 | ~9.5 + 0.04·(rev−90) | ~9.5 + 0.04·(rev−90) |
 | Years to exit | — | ~5 | ~5 | correlated w/ revenue (4→7.5) |
 | Equity value/share | (0 / 0.10 / 0.50) | derived | derived | derived |
 
@@ -98,11 +113,13 @@ Strategic interest threshold ~$50–100M revenue for a category-defining BFY bra
 
 Cost of equity **~12%** (idiosyncratic/survival risk carried in the path probabilities, not the rate). Tweakable.
 
-## 7b. Current base-case result (refined)
+## 7b. Current base-case result (post 6-30-2026 catalyst)
 
-Expected value **$5.61 (+31% vs $4.28)** | median $5.79 | P(≥2x) 34% | P(loss) 43% | P(near-total loss) 16%.
-Per-path conditional means: failure $0.20, muddle $0.69, scale&public $6.55, scale&acquired $11.49.
-Bimodal: ~42% mass → ~$0 (failure+muddle), ~58% → win cluster ($6–14). The case rests on P(scaling works).
+Expected value **$6.10 (+43% vs $4.28)** | median $6.37 | P(≥2x) 37% | P(loss) 37% | P(near-total loss) 13%.
+Per-path conditional means: failure $0.16, muddle $0.69, scale&public $6.53, scale&acquired $11.47
+(contributions $0.01 / $0.19 / $1.90 / $4.01).
+Bimodal: ~36% mass → ~$0 (failure+muddle), ~64% → win cluster ($6–14). The case rests on P(scaling works).
+*(Pre-news base was $5.61 / +31%, median $5.79, P(loss) 43%, P(near-total loss) 16% at 12/30/26/32.)*
 
 ## 8. Outputs
 

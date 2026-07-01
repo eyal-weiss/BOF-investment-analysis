@@ -38,6 +38,7 @@ Its economic significance is *where it sits on the cost-quality curve*. Conventi
 | Mar 2026 | 4th REV line online (dairy/allergen-controlled); record ~46,000 kg/month output |
 | May 2026 | Sam's Club nationwide rollout (~600 locations) |
 | Jun 2026 | Five-SKU launch at a leading mass retailer (Target-implied), ~2,000 stores in Sep 2026 |
+| Jun 30 2026 | **Sam's Club converts to everyday recurring placement in 309 clubs (~$8M/yr est., shipments Sep 2026)**; mgmt guides to positive operating cash flow; $1.0M working-capital loan (Kaufman, 8%) taken to fund the ramp |
 
 **Stock price history.** From the $6.00 IPO (June 2023), BOF de-rated sharply during its cash-strapped 2024 (the June 2024 follow-on priced at just $0.80, and the stock traded near ~$1.65 by December 2024) as dilution and going-concern concerns mounted. Through 2025–2026 the shares re-rated on commercial traction (Costco, Sam's Club, Target), reaching **$4.28 (June 2026)** within a 52-week range of **$1.53–$4.95**. The chart is, in effect, a referendum on whether the Peru scale-up is working.
 
@@ -82,7 +83,7 @@ Crucially, Healy comes from a **family of natural-food entrepreneurs**, which in
 - Its **Cinnamon Churro Banana Chips were selected for U.S. Army Close Combat Assault Ration testing** — an unusual validation data point.
 
 **Commercial proof points**
-- Sam's Club nationwide launch ran at **~$600/store/week**, above the ~$400–600 "success" threshold, with management citing up to **$15M ARR** potential if it converts to an everyday item.
+- Sam's Club nationwide launch ran at **~$600/store/week**, above the ~$400–600 "success" threshold, with management citing up to **$15M ARR** potential if it converts to an everyday item. **This converted on June 30, 2026:** everyday recurring placement in **309 clubs** at an estimated **$8M annual revenue** (≈$500/club/week), shipments beginning September 2026 — the first hard, dated proof that the scaling binary is resolving favourably.
 - Costco relationship scaled from ~$1.1M (H2 2024) to ~$3M (H1 2025); management sizes near-term Costco opportunity at **$3–4M**.
 
 **Cost structure / moat**

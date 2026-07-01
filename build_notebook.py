@@ -33,7 +33,18 @@ invented probability. Instead, path 4 carries two correlations so the tail is *h
 `P(acquired) = P(scaling works) × P(sell | scaled)`; dilution risk = operational-scaling risk.""")
 
 # ---------------------------------------------------------------- setup
-md("## 1. Setup & Control Panel\n\nAll assumptions live here. Triangular distributions are `(min, mode, max)`.")
+md(r"""## 1. Setup & Control Panel
+
+All assumptions live here. Triangular distributions are `(min, mode, max)`.
+
+**Update 2026-06-30 — de-risking catalyst baked in.** BranchOut converted its Sam's Club
+(the nation's #2 warehouse club) placement to **everyday recurring** in **309 clubs** at an
+estimated **\$8M annual revenue**, and management expects the program to drive **positive
+operating cash flow** and better factory utilisation / gross margin. Because this bears directly
+on the model's central binary — *does operational scaling work?* — it is expressed as a shift in
+the **path probabilities** (failure 12→9, muddle 30→27, scaling 58→**64%**), with a +\$0.5M
+net-debt nudge for the new \$1.0M working-capital loan. Exit-revenue/multiple distributions are
+unchanged (their modes are years out).""")
 code(r"""import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -48,12 +59,17 @@ PRICE_NOW   = 4.28
 SHARES_NOW  = 15.32     # million, basic
 
 # ---- Path probabilities (must sum to 1.0) ---------------------------------
-#   user priors 10/30/15/45 ; analyst counter 13/30/24/33 ; base = ~midpoint
+#   user priors 10/30/15/45 ; analyst counter 13/30/24/33 ; prior base 12/30/26/32
+#   UPDATED 2026-06-30: Sam's Club (nation's #2 warehouse club) converts to EVERYDAY
+#   placement in 309 clubs (~$8M/yr est.) + mgmt guides to POSITIVE OPERATING CASH FLOW.
+#   This is direct evidence the scaling binary is resolving favourably: cut failure
+#   (going-concern risk falls with positive OCF), trim muddle, add ~6pts to scaling.
+#   P(scaling) 58% -> 64%, in line with the ~59-64% the tape implies after a micro-cap MoS.
 P = {
-    'failure'       : 0.12,
-    'muddle'        : 0.30,
-    'scale_public'  : 0.26,
-    'scale_acquired': 0.32,
+    'failure'       : 0.09,
+    'muddle'        : 0.27,
+    'scale_public'  : 0.29,
+    'scale_acquired': 0.35,
 }
 assert abs(sum(P.values()) - 1.0) < 1e-9, "probabilities must sum to 1"
 
@@ -78,8 +94,10 @@ DIL = {'ref_rev': 60, 'base_shares': 20.0, 'slope': 0.075, 'noise': 1.2}
 MUDDLE_SHARES = (28, 30, 40)             # muddle dilutes brutally (low prices)
 
 # ---- Net debt at exit ($M): mild rise with revenue (scaling), flat (muddle)
-NDV          = {'base': 9.0, 'slope': 0.04, 'ref_rev': 90}   # @ $200M -> ~$13.4M
-NETDEBT_MUD  = 8.0
+#   +$0.5M vs prior anchors for the Jun-2026 $1.0M working-capital loan (Kaufman, 8%)
+#   funding the Sam's Club everyday-placement production ramp.
+NDV          = {'base': 9.5, 'slope': 0.04, 'ref_rev': 90}   # @ $200M -> ~$13.9M
+NETDEBT_MUD  = 8.5
 
 # ---- TIME to exit (years) -------------------------------------------------
 #   acquired: correlated with revenue (bigger exit => longer): @75->4, @115->~5, @220->~7.5

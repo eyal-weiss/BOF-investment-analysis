@@ -10,19 +10,21 @@ BranchOut Food is a micro-cap better-for-you (BFY) snack company that dries frui
 
 But this is not a company you can value with a five-year DCF, and pretending otherwise would be false precision. BOF's future is not a smooth distribution of outcomes around a central forecast — it is a **handful of discrete development paths whose probabilities and consequences differ by an order of magnitude**. New customers, new lines, new tolling deals, and successive rounds of dilution will reshape the income statement faster than any point forecast can track. The honest way to value it is a **probabilistic scenario model**: define the paths, attach a probability to each, model the per-share consequence within each as a distribution, and roll the whole thing up via Monte Carlo into both an expected value and a full distribution of outcomes.
 
-The result is a **bimodal bet on one variable: whether the Peru operation scales.** Demand is not the constraint — both management commentary and the filings point to the binding question being *throughput* on the REV machines and the margin recovery that comes with it. Roughly 58% of the probability mass lands in a "scaling works" cluster worth $6–14 per share; the other ~42% (failure or sub-scale muddle) collapses toward zero. The two are linked by a single thread — **dilution risk and operational-scaling risk are the same risk**, because the company funds its journey by issuing stock, and it issues less stock (at higher prices) precisely in the worlds where scaling works.
+The result is a **bimodal bet on one variable: whether the Peru operation scales.** Demand is not the constraint — both management commentary and the filings point to the binding question being *throughput* on the REV machines and the margin recovery that comes with it. Roughly 64% of the probability mass lands in a "scaling works" cluster worth $6–14 per share; the other ~36% (failure or sub-scale muddle) collapses toward zero. The two are linked by a single thread — **dilution risk and operational-scaling risk are the same risk**, because the company funds its journey by issuing stock, and it issues less stock (at higher prices) precisely in the worlds where scaling works.
 
-**Probabilistic valuation summary** (200,000-draw Monte Carlo; 12% cost of equity; price $4.28 as of June 21, 2026):
+> **June 30, 2026 catalyst (incorporated below).** BranchOut converted its Sam's Club placement (the nation's #2 warehouse club) to **everyday recurring** in **309 clubs** at an estimated **$8M annual revenue** (shipments begin September 2026), after a May-2026 rotation hit "the highest end of the retailer's velocity thresholds." Management expects the program to drive **positive operating cash flow** and improved factory utilisation and gross margin; a $1.0M working-capital loan funds the ramp. Because this is the first hard, dated evidence that the model's central *"does scaling work?"* binary is resolving favourably, we raise **P(scaling) from 58% to 64%** (cutting failure 12%→9% and muddle 30%→27%) and add ~$0.5M to the net-debt anchors for the new loan. Expected value rises from **$5.61 to $6.10**. The tape barely reacted (the stock was ~$4.30 on July 1), so the price still implies only ~43% scaling odds at face value.
+
+**Probabilistic valuation summary** (200,000-draw Monte Carlo; 12% cost of equity; price $4.28 anchor, ≈$4.30 spot July 1, 2026; post 6-30 catalyst):
 
 | Path | Probability | Conditional value/share | Contribution to E[value] |
 |------|------------|------------------------|--------------------------|
-| Failure (going concern / dilution spiral) | 12% | ~$0.20 | $0.02 |
-| Muddle (survives sub-scale) | 30% | ~$0.69 | $0.21 |
-| Scale & stay public | 26% | ~$6.55 | $1.71 |
-| Scale & acquired by a strategic | 32% | ~$11.49 | $3.67 |
-| **Probability-weighted expected value** | **100%** | **$5.61** | **$5.61** |
+| Failure (going concern / dilution spiral) | 9% | ~$0.16 | $0.01 |
+| Muddle (survives sub-scale) | 27% | ~$0.69 | $0.19 |
+| Scale & stay public | 29% | ~$6.53 | $1.90 |
+| Scale & acquired by a strategic | 35% | ~$11.47 | $4.01 |
+| **Probability-weighted expected value** | **100%** | **$6.10** | **$6.10** |
 
-The expected value of **$5.61 implies ~31% upside** to the $4.28 price, with a median of $5.79, a 34% probability of a ≥2x outcome, and a 16% probability of near-total loss. The three pillars: **(1)** a genuine, hard-to-replicate cost moat (Peru + a ~4-year head start) with demand already proven by warehouse-club wins; **(2)** at $4.28 the price capitalizes only a **~43% chance of scaling at face value** (≈59–64% once the usual micro-cap margin of safety is applied), versus our ~58% base case — so the edge is simply whether your conviction on the Peru throughput ramp clears that bar; and **(3)** an asymmetric right tail — a "scale-to-$200M-then-sell" strategic exit to a PepsiCo/Hershey/Mondelez at 4x revenue is worth ~$12/share even after honest time-and-dilution drag.
+The expected value of **$6.10 implies ~43% upside** to the $4.28 price, with a median of $6.37, a 37% probability of a ≥2x outcome, and a 13% probability of near-total loss. The three pillars: **(1)** a genuine, hard-to-replicate cost moat (Peru + a ~4-year head start) with demand already proven by warehouse-club wins — now including a top-2 club *everyday* conversion; **(2)** at $4.28 the price capitalizes only a **~43% chance of scaling at face value** (≈59–64% once the usual micro-cap margin of safety is applied), versus our ~64% base case — so the edge is simply whether your conviction on the Peru throughput ramp clears that bar; and **(3)** an asymmetric right tail — a "scale-to-$200M-then-sell" strategic exit to a PepsiCo/Hershey/Mondelez at 4x revenue is worth ~$12/share even after honest time-and-dilution drag.
 
 ---
 
@@ -112,7 +114,7 @@ It is tempting to frame the bull case as "BOF gets bought by a food giant." But 
 ## Growth Strategy / Key Opportunities
 
 ### 1. Warehouse-Club Penetration (the proven engine)
-Costco (multi-region, expanding pineapple and new mango chips) and **Sam's Club (nationwide launch, May 2026)** are the demonstrated growth drivers, with management sizing the Costco opportunity at $3–4M and Sam's Club at an initial $1.5–2M (up to ~$15M if it converts to an everyday item). These are verifiable, high-credibility channels — winning them is the single best evidence that demand is real.
+Costco (multi-region, expanding pineapple and new mango chips) and **Sam's Club** are the demonstrated growth drivers, with management sizing the Costco opportunity at $3–4M. The Sam's Club relationship de-risked materially on **June 30, 2026**: after a May-2026 limited-time rotation posted velocity at "the highest end of the retailer's thresholds," BranchOut **converted to everyday recurring placement in 309 clubs at an estimated $8M annual revenue** (shipments begin September 2026) — the optionality this thesis had flagged ("up to ~$15M if it converts to an everyday item") now partly realized. Management ties the program to **positive operating cash flow** and better factory utilisation. These are verifiable, high-credibility channels — winning them, and now *retaining* them as everyday items, is the single best evidence that demand is real.
 
 ### 2. Mass Retail: Target and Walmart
 A 5-SKU Target launch is slated for ~2,000 stores in September 2026, and a Walmart branded + private-label program (potentially "$10M incremental") has slipped from H2 2026 toward 2027. Mass-retail breadth diversifies BOF beyond its current ~99% two-retailer concentration — both an opportunity and, today, a risk.
@@ -148,17 +150,17 @@ The output is not a single "target price." It is a probability-weighted expected
 
 ## Scenario Analysis: The Four Paths
 
-### Path 1 — Failure (probability 12%)
-The going-concern risk materializes: BOF cannot fund the gap to durable profitability on acceptable terms, and equity is impaired toward zero through a dilution spiral, restructuring, or insolvency. With $0.9M of cash, ~$2M/quarter burn, and the Kaufman note due January 2027, this is a live risk, mitigated (kept to 12%, below the typical nano-cap going-concern base rate) by real revenue, verified customers, and a committed backer. **Conditional value: ~$0.20/share.**
+### Path 1 — Failure (probability 9%)
+The going-concern risk materializes: BOF cannot fund the gap to durable profitability on acceptable terms, and equity is impaired toward zero through a dilution spiral, restructuring, or insolvency. With $0.9M of cash, ~$2M/quarter burn, and the Kaufman note due January 2027, this is a live risk — but the June-30 Sam's Club everyday conversion, with management guiding to **positive operating cash flow**, is direct evidence the funding gap is narrowing, so we cut this from 12% to **9%** (still above zero: the everyday $8M is a management *estimate*, and a near-term equity raise remains likely). Mitigated further by real revenue, verified customers, and a committed backer. **Conditional value: ~$0.16/share.**
 
-### Path 2 — Muddle (probability 30%)
-BOF survives but never reaches escape velocity: revenue stalls around $25–30M, margins remain stuck near the normalized ~25% rather than expanding, and the company funds itself with chronic small raises into a weak stock. The brutal feature here is dilution — perpetual issuance at $2–3 balloons the share count toward 30–40M while the multiple stays low (~1.8x revenue). **Conditional value: ~$0.69/share** — an ~84% loss, nearly as bad as outright failure. The muddle path is the quiet killer: 30% of the probability for almost none of the value.
+### Path 2 — Muddle (probability 27%)
+BOF survives but never reaches escape velocity: revenue stalls around $25–30M, margins remain stuck near the normalized ~25% rather than expanding, and the company funds itself with chronic small raises into a weak stock. The brutal feature here is dilution — perpetual issuance at $2–3 balloons the share count toward 30–40M while the multiple stays low (~1.8x revenue). **Conditional value: ~$0.69/share** — an ~84% loss, nearly as bad as outright failure. The muddle path is the quiet killer: 27% of the probability for almost none of the value. (Trimmed from 30%: converting a top-2 national account to *everyday* placement makes an indefinite sub-scale muddle modestly less likely.)
 
-### Path 3 — Scale & Stay Public (probability 26%)
-Operational scaling works — throughput ramps, margins climb toward ~35%, and BOF becomes a profitable, growing public BFY company (the Simply Good Foods / BellRing template) without being acquired. Exit revenue distribution centers on ~$85M, valued at ~2.8x revenue (no control premium), against a moderately diluted ~24M share count. **Conditional value: ~$6.55/share.**
+### Path 3 — Scale & Stay Public (probability 29%)
+Operational scaling works — throughput ramps, margins climb toward ~35%, and BOF becomes a profitable, growing public BFY company (the Simply Good Foods / BellRing template) without being acquired. Exit revenue distribution centers on ~$85M, valued at ~2.8x revenue (no control premium), against a moderately diluted ~24M share count. **Conditional value: ~$6.53/share.**
 
-### Path 4 — Scale & Acquired (probability 32%)
-Scaling works *and* a strategic acquirer (PepsiCo/Frito-Lay, Hershey, or Mondelez) buys BOF, paying the BFY-snack M&A multiple of 3.6–4.4x revenue. Exit revenue centers on ~$115M with a right tail to ~$220M (the "scale-further-then-sell" super-bull), and bigger exits are modeled to take longer (up to ~7.5 years) and require more dilution (up to ~32M shares) — so the tail is honest, not free. **Conditional value: ~$11.49/share.** This path contributes the largest single slice of expected value ($3.67 of $5.61).
+### Path 4 — Scale & Acquired (probability 35%)
+Scaling works *and* a strategic acquirer (PepsiCo/Frito-Lay, Hershey, or Mondelez) buys BOF, paying the BFY-snack M&A multiple of 3.6–4.4x revenue. Exit revenue centers on ~$115M with a right tail to ~$220M (the "scale-further-then-sell" super-bull), and bigger exits are modeled to take longer (up to ~7.5 years) and require more dilution (up to ~32M shares) — so the tail is honest, not free. **Conditional value: ~$11.47/share.** This path contributes the largest single slice of expected value ($4.01 of $6.10).
 
 ---
 
@@ -166,25 +168,25 @@ Scaling works *and* a strategic acquirer (PepsiCo/Frito-Lay, Hershey, or Mondele
 
 **Method.** 200,000 Monte Carlo draws. Each draw selects a path by its probability, then samples that path's exit revenue, exit EV/Revenue multiple, diluted share count, net debt, and years-to-exit from triangular distributions; computes `Equity = Revenue × Multiple − Net Debt`; divides by diluted shares; and discounts to today at a **12% cost of equity** (idiosyncratic/survival risk is carried in the path probabilities, not the discount rate). Scaling paths carry two correlations: **shares rise with exit revenue** (more capacity ⇒ more capital ⇒ more dilution) and, for the acquired path, **time-to-exit rises with exit revenue** (a $200M outcome lands ~7 years out, not 5).
 
-**Headline result (price $4.28, June 21, 2026):**
+**Headline result (price $4.28 anchor, ≈$4.30 spot Jul 1, 2026; updated for the June-30 Sam's Club catalyst):**
 
 | Metric | Value |
 |--------|-------|
-| Probability-weighted expected value | **$5.61 (+31%)** |
-| Median outcome | $5.79 |
-| Expected return multiple | 1.31x |
-| P(near-total loss, <$0.50) | 16% |
-| P(below today's price) | 43% |
-| P(≥ 2x) | 34% |
+| Probability-weighted expected value | **$6.10 (+43%)** |
+| Median outcome | $6.37 |
+| Expected return multiple | 1.43x |
+| P(near-total loss, <$0.50) | 13% |
+| P(below today's price) | 37% |
+| P(≥ 2x) | 37% |
 | P(≥ 3x) | 6% |
 
 **Distribution of per-share present value (percentiles):**
 
 | P5 | P10 | P25 | P50 | P75 | P90 | P95 |
 |----|-----|-----|-----|-----|-----|-----|
-| $0.16 | $0.32 | $0.66 | $5.79 | $10.28 | $12.16 | $13.04 |
+| $0.16 | $0.40 | $0.72 | $6.37 | $10.55 | $12.29 | $13.12 |
 
-The distribution is **bimodal**, not bell-shaped: ~42% of the probability mass (failure + muddle) clusters near zero, and ~58% (scaling works) lands in a $6–14 cluster. This is why the **median ($5.79) sits above the mean ($5.61)** — more than half the mass is in the win cluster, but the near-zero tail drags the average down. An investor is, in effect, buying a **~58/42 binary on operational scaling**, priced today at roughly a 24% discount to its probability-weighted fair value — the price equates to fair value only at ~43% scaling odds (see *What the Market Price Implies*, below).
+The distribution is **bimodal**, not bell-shaped: ~36% of the probability mass (failure + muddle) clusters near zero, and ~64% (scaling works) lands in a $6–14 cluster. This is why the **median ($6.37) sits above the mean ($6.10)** — more than half the mass is in the win cluster, but the near-zero tail drags the average down. An investor is, in effect, buying a **~64/36 binary on operational scaling**, priced today at roughly a 30% discount to its probability-weighted fair value — the price equates to fair value only at ~43% scaling odds (see *What the Market Price Implies*, below).
 
 ### The Super-Bull, Fully Costed
 
@@ -192,12 +194,12 @@ The "scale to ~$200M, then sell" outcome is captured as the *right tail of Path 
 
 | Exit revenue | Multiple | Diluted shares | Years | EV | Exit price | PV today | × current price |
 |-------------|----------|----------------|-------|-----|-----------|----------|-----------------|
-| $115M | 4.0x | 24.1M | 5.0 | $460M | $18.65 | $10.63 | 2.5x |
-| $150M | 4.25x | 26.8M | 5.8 | $638M | $23.41 | $12.12 | 2.8x |
-| $200M | 4.25x | 30.5M | 7.0 | $850M | $27.43 | $12.39 | 2.9x |
-| $220M | 4.5x | 32.0M | 7.5 | $990M | $30.49 | $13.04 | 3.0x |
+| $115M | 4.0x | 24.1M | 5.0 | $460M | $18.63 | $10.62 | 2.5x |
+| $150M | 4.25x | 26.8M | 5.8 | $638M | $23.39 | $12.11 | 2.8x |
+| $200M | 4.25x | 30.5M | 7.0 | $850M | $27.41 | $12.38 | 2.9x |
+| $220M | 4.5x | 32.0M | 7.5 | $990M | $30.48 | $13.04 | 3.0x |
 
-The $200M case is worth **~$12.39 today (≈2.9x)** — meaningfully above the $115M base, but far below the naïve "$850M ÷ today's 15.3M shares = ~$56" intuition, because three extra years of discounting and ~6M more shares of dilution eat most of the incremental revenue. That discipline is the model's central value-add.
+The $200M case is worth **~$12.38 today (≈2.9x)** — meaningfully above the $115M base, but far below the naïve "$850M ÷ today's 15.3M shares = ~$56" intuition, because three extra years of discounting and ~6M more shares of dilution eat most of the incremental revenue. That discipline is the model's central value-add.
 
 ### Sensitivity to the Master Variable: P(Scaling Works)
 
@@ -205,13 +207,14 @@ Because the case is a binary on scaling, the expected value is most sensitive to
 
 | P(scaling works) | P(muddle) | Expected value | Upside | P(≥2x) | P(loss) |
 |------------------|-----------|----------------|--------|--------|---------|
-| 40% | 48% | $4.07 | −5% | 23% | 61% |
-| 50% | 38% | $4.92 | +15% | 29% | 51% |
-| **58% (base)** | **30%** | **$5.60** | **+31%** | **33%** | **43%** |
-| 66% | 22% | $6.30 | +47% | 38% | 35% |
-| 75% | 13% | $7.06 | +65% | 43% | 26% |
+| 40% | 51% | $4.06 | −5% | 23% | 61% |
+| 50% | 41% | $4.91 | +15% | 29% | 51% |
+| 58% | 33% | $5.59 | +31% | 33% | 43% |
+| **64% (base, post 6-30)** | **27%** | **$6.10** | **+43%** | **37%** | **37%** |
+| 66% | 25% | $6.28 | +47% | 38% | 35% |
+| 75% | 16% | $7.05 | +65% | 43% | 26% |
 
-Each ~8 points of scaling probability is worth roughly +$0.70 of expected value. **At our 58% base case BOF is undervalued (+31%); the price equates to fair value only at ~43% scaling odds, so even a coin-flip (~50%) view leaves modest upside — but with ugly downside if you are wrong.**
+Each ~8 points of scaling probability is worth roughly +$0.70 of expected value. The June-30 Sam's Club everyday conversion and positive-operating-cash-flow guidance moved our base from 58% to **64%**. **At that base case BOF is undervalued (+43%); the price equates to fair value only at ~43% scaling odds, so even a coin-flip (~50%) view leaves upside — but with ugly downside if you are wrong.**
 
 ### Dilution Sensitivity
 
@@ -219,11 +222,11 @@ Varying how share-heavy the scaling journey proves to be (implied diluted shares
 
 | Diluted shares @ $115M | Dilution vs. today | Blended E[value] | Upside | Acquired-path E[value] |
 |------------------------|--------------------|-------------------|--------|------------------------|
-| 20.1M | +31% | $6.64 | +55% | $13.61 |
-| 22.1M | +44% | $6.09 | +42% | $12.46 |
-| 24.1M (base) | +57% | $5.62 | +31% | $11.48 |
-| 27.1M | +77% | $5.04 | +18% | $10.28 |
-| 30.1M | +97% | $4.57 | +7% | $9.31 |
+| 20.1M | +31% | $7.24 | +69% | $13.59 |
+| 22.1M | +44% | $6.64 | +55% | $12.44 |
+| 24.1M (base) | +57% | $6.12 | +43% | $11.47 |
+| 27.1M | +77% | $5.48 | +28% | $10.27 |
+| 30.1M | +97% | $4.96 | +16% | $9.29 |
 
 Roughly every +3M shares costs ~$0.50 of blended expected value — a reminder that even in the winning worlds, the *price* of scaling is paid in share count.
 
@@ -231,13 +234,13 @@ Roughly every +3M shares costs ~$0.50 of blended expected value — a reminder t
 
 | Discount rate | 10% | 12% (base) | 15% | 17.5% | 20% |
 |---------------|-----|-----------|-----|-------|-----|
-| Expected value | $6.18 | $5.62 | $4.89 | $4.36 | $3.91 |
+| Expected value | $6.73 | $6.12 | $5.32 | $4.75 | $4.26 |
 
-A 12% cost of equity is appropriate here because survival/idiosyncratic risk is already expressed in the path probabilities; an investor who prefers to double-count that risk at 15% would see the stock as roughly fairly valued ($4.89).
+A 12% cost of equity is appropriate here because survival/idiosyncratic risk is already expressed in the path probabilities; an investor who prefers to double-count that risk would still see upside at 15% ($5.32, +24%) and only reach roughly fair value near a 20% discount rate ($4.26).
 
 ### What the Market Price Implies About Scaling Odds
 
-Inverting the model against the $4.28 price answers the question every investor in a binary name should ask: *what probability of success am I being asked to pay for?* At face value — solving for the `P(scaling works)` at which the model's expected value equals the price — the market is paying for only a **~43% chance of scaling**, *below* our 58% base case and barely above a coin flip.
+Inverting the model against the $4.28 price answers the question every investor in a binary name should ask: *what probability of success am I being asked to pay for?* At face value — solving for the `P(scaling works)` at which the model's expected value equals the price — the market is paying for only a **~43% chance of scaling**, *below* our 64% base case and barely above a coin flip.
 
 But that face-value read ignores how micro-cap, not-yet-profitable equities are actually priced: investors demand a **margin of safety** — they will not pay full intrinsic value for a going-concern name, only a discount to it. Re-solving with the price set at fair-value × (1 − margin of safety):
 
@@ -248,7 +251,7 @@ But that face-value read ignores how micro-cap, not-yet-profitable equities are 
 | 25% | $5.71 | ~59% |
 | 30% | $6.11 | ~64% |
 
-The interpretation flips with the lens. **Taken literally, the tape prices sub-coin-flip scaling odds (~43%) — but once you account for the ~25–30% discount these names rationally warrant, the price is consistent with the market genuinely believing ~59–64%, essentially our base case (or a touch above).** Either way the asymmetry is favorable: an investor whose own conviction on the Peru ramp exceeds ~43% is more than compensated, and the margin-of-safety framing suggests the view embedded in the price is already close to our 58%.
+The interpretation flips with the lens. **Taken literally, the tape prices sub-coin-flip scaling odds (~43%) — but once you account for the ~25–30% discount these names rationally warrant, the price is consistent with the market genuinely believing ~59–64%, essentially our base case (or a touch above).** Either way the asymmetry is favorable: an investor whose own conviction on the Peru ramp exceeds ~43% is more than compensated, and the margin-of-safety framing suggests the view embedded in the price is close to ~59–64% — now our base case, following the June-30 everyday conversion (i.e. the fundamentals have moved toward the price's discounted read, while the tape has not moved toward fair value).
 
 ### Return CAGR by Exit Scenario
 
@@ -256,13 +259,13 @@ For a position entered at $4.28 today, the annualized return (CAGR) across the c
 
 | Exit scenario | Exit revenue | Multiple | Years | Exit price | MOIC | **CAGR** |
 |---|---|---|---|---|---|---|
-| Scale & stay public | ~$85M | 2.8x | 5.0 | $10.48 | 2.4x | **+20%** |
-| Acquired (base) | ~$115M | 4.0x | 5.0 | $18.65 | 4.4x | **+34%** |
-| Acquired | ~$150M | 4.25x | 5.8 | $23.41 | 5.5x | **+34%** |
-| Super-bull | ~$200M | 4.25x | 7.0 | $27.43 | 6.4x | **+30%** |
-| Super-bull | ~$220M | 4.5x | 7.5 | $30.49 | 7.1x | **+30%** |
+| Scale & stay public | ~$85M | 2.8x | 5.0 | $10.45 | 2.4x | **+20%** |
+| Acquired (base) | ~$115M | 4.0x | 5.0 | $18.63 | 4.4x | **+34%** |
+| Acquired | ~$150M | 4.25x | 5.8 | $23.39 | 5.5x | **+34%** |
+| Super-bull | ~$200M | 4.25x | 7.0 | $27.41 | 6.4x | **+30%** |
+| Super-bull | ~$220M | 4.5x | 7.5 | $30.48 | 7.1x | **+30%** |
 | Muddle (sub-scale) | — | — | ~5 | ~$1.22 | 0.3x | **−22%** |
-| Failure | — | — | — | ~$0.20 | ~0 | **~−100%** |
+| Failure | — | — | — | ~$0.16 | ~0 | **~−100%** |
 
 Two things stand out. First, the **winning outcomes cluster around a 30–34% CAGR** — and notably, the bigger super-bull exits do *not* deliver a higher annualized return than the base acquisition, because the extra scale takes more years and more dilution to reach (the longer runway compresses the CAGR even as the multiple-on-invested-capital rises). **The best *annualized* return comes from a clean acquisition at ~$115–150M in ~5 years, not from holding out for $200M+.** Second, the downside is severe and fast — muddle compounds at roughly −22%/year and failure is a near-total loss — which is why position sizing, not just direction, is the operative question.
 
@@ -318,12 +321,12 @@ The takeaway: BOF already trades at a *scaled-company* EV/Revenue multiple while
 
 ## Conclusion
 
-BranchOut Food is best understood not as a cheap stock or an expensive one, but as a **binary priced with a margin of safety**. At $4.28 the price capitalizes only a ~43% chance that the Peru operation scales at face value — below the model's ~58% base case — implying ~31% upside to the ~$5.61 probability-weighted fair value; adjusted for the ~25–30% discount a going-concern micro-cap rationally warrants, the price is consistent with the market itself believing ~59–64%. The investment question is therefore unusually clean: **do you believe the probability of successful operational scaling is higher than the ~43% the tape demands at face value?** If you do — and the demand side is already proven by Costco, Sam's Club, and Target, leaving "only" the throughput-and-margin ramp in question — then BOF is undervalued, with a median outcome of ~$5.79, a one-in-three chance of doubling, and a strategic-exit right tail worth ~$12 (and up to ~$13 in the scale-to-$200M super-bull).
+BranchOut Food is best understood not as a cheap stock or an expensive one, but as a **binary priced with a margin of safety**. At $4.28 the price capitalizes only a ~43% chance that the Peru operation scales at face value — below the model's ~64% base case — implying ~43% upside to the ~$6.10 probability-weighted fair value; adjusted for the ~25–30% discount a going-concern micro-cap rationally warrants, the price is consistent with the market itself believing ~59–64%. The investment question is therefore unusually clean: **do you believe the probability of successful operational scaling is higher than the ~43% the tape demands at face value?** If you do — and the demand side is already proven by Costco, Sam's Club (now an *everyday* national placement), and Target, leaving "only" the throughput-and-margin ramp in question — then BOF is undervalued, with a median outcome of ~$6.37, a better-than-one-in-three chance of doubling, and a strategic-exit right tail worth ~$12 (and up to ~$13 in the scale-to-$200M super-bull).
 
-The discipline of the model is as important as its conclusion. It refuses to reward the bull case for free: bigger outcomes are penalized with the dilution and the time they actually require, which is why even a $200M acquisition is a ~2.9x rather than the ~13x a back-of-the-envelope would suggest. And it makes the downside unflinching — a combined ~42% probability of failure-or-muddle, both of which return well under a dollar. This is a high-variance, bimodal position whose left tail is real and whose value is created almost entirely by one variable.
+The discipline of the model is as important as its conclusion. It refuses to reward the bull case for free: bigger outcomes are penalized with the dilution and the time they actually require, which is why even a $200M acquisition is a ~2.9x rather than the ~13x a back-of-the-envelope would suggest. And it makes the downside unflinching — a combined ~36% probability of failure-or-muddle, both of which return well under a dollar. This is a high-variance, bimodal position whose left tail is real and whose value is created almost entirely by one variable.
 
-**Risk/reward assessment.** The expected value offers ~31% upside at a 12% discount rate, the distribution is favorably skewed for a patient holder (median above the mean, 34% probability of ≥2x against a 16% probability of near-total loss), and the moat — Peru cost advantage plus a ~4-year head start with demand already validated — is genuine. But this is appropriately sized as a *small, high-conviction-on-scaling* position, not a core holding: the going-concern and dilution risks are live, execution credibility is mixed, and the whole thesis rests on a single plant in Peru learning to run at scale. For an investor whose independent read on operational scaling exceeds the ~43% the price implies at face value — let alone our 58% base case — BOF is a compelling asymmetric bet. For one who cannot get comfortable above a coin-flip on the throughput ramp, it is a pass.
+**Risk/reward assessment.** The expected value offers ~43% upside at a 12% discount rate, the distribution is favorably skewed for a patient holder (median above the mean, 37% probability of ≥2x against a 13% probability of near-total loss), and the moat — Peru cost advantage plus a ~4-year head start with demand already validated — is genuine. But this is appropriately sized as a *small, high-conviction-on-scaling* position, not a core holding: the going-concern and dilution risks are live, execution credibility is mixed, and the whole thesis rests on a single plant in Peru learning to run at scale. For an investor whose independent read on operational scaling exceeds the ~43% the price implies at face value — let alone our 64% base case — BOF is a compelling asymmetric bet. For one who cannot get comfortable above a coin-flip on the throughput ramp, it is a pass.
 
 ---
 
-*This thesis is built on the probabilistic scenario model in `bof_financial_model.ipynb`; all valuation figures (expected value $5.61, per-path conditional values, percentiles, and sensitivity tables) are drawn directly from that notebook's 200,000-draw Monte Carlo output. Assumptions and sources are documented in `BOF_model_assumptions.md`. Not investment advice.*
+*This thesis is built on the probabilistic scenario model in `bof_financial_model.ipynb`; all valuation figures (expected value $6.10, per-path conditional values, percentiles, and sensitivity tables) are drawn directly from that notebook's 200,000-draw Monte Carlo output. Assumptions and sources are documented in `BOF_model_assumptions.md`. Not investment advice.*
